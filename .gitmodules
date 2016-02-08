@@ -1,0 +1,9 @@
+[submodule "neural-style"]
+	path = neural-style
+	url = https://github.com/jcjohnson/neural-style.git
+[submodule "protobuf-objc"]
+	path = protobuf-objc
+	url = https://github.com/alexeyxo/protobuf-objc.git
+[submodule "torch-ios"]
+	path = torch-ios
+	url = git@github.com:sheldonth/torch-ios.git

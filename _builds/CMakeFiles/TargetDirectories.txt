@@ -1,0 +1,3 @@
+/Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/CMakeFiles/ZERO_CHECK.dir
+/Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/CMakeFiles/ALL_BUILD.dir
+/Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/CMakeFiles/NEURAL_ART.dir

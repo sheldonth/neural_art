@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BF56E1AE7E0943C58F91115F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BA0ADC3C553D4C50BD777666 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				BC955F3AB8F043E3958EAB80 /* CMake Rules */,
+			);
+			dependencies = (
+				17F561D7B34F40678DDA8D25 /* PBXTargetDependency */,
+				67D5FA736FB74B3487FF5406 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D538788F1DFE4CC0AEDC5EBA /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 83EE30592EBD4A9CAA4B85E6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				C21BE634905346D19D12EA81 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02CF94A648C340AC99DF987B /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.m */ = {isa = PBXBuildFile; fileRef = CC62CFD98BEB4FC4B077D942 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.m */; settings = {COMPILER_FLAGS = ""; }; };
+		17C90E88AC3F4310A363ADE3 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/LaunchScreen.storyboard */ = {isa = PBXBuildFile; fileRef = 19D8A9C11FC24279A0EAC2CD /* /Users/sheldonthomas/Documents/Resplendent/neural_art/LaunchScreen.storyboard */; settings = {COMPILER_FLAGS = ""; }; };
+		452A35710679484B880D8929 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/ViewController.h */ = {isa = PBXBuildFile; fileRef = EBAC603624D4400EBE94A30E /* /Users/sheldonthomas/Documents/Resplendent/neural_art/ViewController.h */; settings = {COMPILER_FLAGS = ""; }; };
+		47BF485404C0454BB85CCD15 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Prefix.pch */ = {isa = PBXBuildFile; fileRef = 717E2748D1BF4CB2805009AB /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Prefix.pch */; settings = {COMPILER_FLAGS = ""; }; };
+		4FD9DBE74A974473B17D1C0A /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.h */ = {isa = PBXBuildFile; fileRef = 8F7AE70DC71745A09FE539A0 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.h */; settings = {COMPILER_FLAGS = ""; }; };
+		517F784AD8504DFCBAFB3C85 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/CMakeFiles/NEURAL_ART.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 7D45FE26A21C4091A18D4CB4 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/CMakeFiles/NEURAL_ART.dir/Info.plist */; settings = {COMPILER_FLAGS = ""; }; };
+		BD777FADD78B443881F8F67B /* /Users/sheldonthomas/Documents/Resplendent/neural_art/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = EFCEBD60258142A3ABC885C0 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		D03CC0031AD84558AAEB194C /* /Users/sheldonthomas/Documents/Resplendent/neural_art/ViewController.m */ = {isa = PBXBuildFile; fileRef = AC4BF7C6FC3043EAAEF420F5 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/ViewController.m */; settings = {COMPILER_FLAGS = ""; }; };
+		D5DE76E4D3A448EE9A7AEDA8 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/main.m */ = {isa = PBXBuildFile; fileRef = 0FAF82617EBC4435BCC29598 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/main.m */; settings = {COMPILER_FLAGS = ""; }; };
+		D6BCA47E675D49B09016B092 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.framework */ = {isa = PBXBuildFile; fileRef = F4D4E9EB515F48C198532E63 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.framework */; settings = {COMPILER_FLAGS = ""; }; };
+		E2E696B3D0EA441E929804A6 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Main.storyboard */ = {isa = PBXBuildFile; fileRef = FA2B9FEB082042A1ABA44A3F /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Main.storyboard */; settings = {COMPILER_FLAGS = ""; }; };
+		EAD32B142C6B4397A505B893 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/AppDelegate.m */ = {isa = PBXBuildFile; fileRef = DB89638C10D24F03AD35C761 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/AppDelegate.m */; settings = {COMPILER_FLAGS = ""; }; };
+		FE9317E544244F0599C61387 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/AppDelegate.h */ = {isa = PBXBuildFile; fileRef = 9070994D530B4556A9AF49EF /* /Users/sheldonthomas/Documents/Resplendent/neural_art/AppDelegate.h */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0D81F1577C6F4FF8A268D2E7 = {
+			isa = PBXBuildStyle;
+		};
+		2206B931D04541609E9B42B5 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		6AC53F728B59471EAD4A9CEA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A4C43D1989274E3FAAC6E721 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		D2780B2CECB94EB591BBFDDC /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1428DF9747854A5EAA4F4E99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACB00DF0B654D5A97781043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D538788F1DFE4CC0AEDC5EBA;
+			remoteInfo = ZERO_CHECK;
+		};
+		7BCC080349F44327B8C0EE7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACB00DF0B654D5A97781043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D538788F1DFE4CC0AEDC5EBA;
+			remoteInfo = ZERO_CHECK;
+		};
+		86965560FF0742458FE54854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACB00DF0B654D5A97781043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4274FF0AB324FCDB2C28D6C;
+			remoteInfo = NEURAL_ART;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FAF82617EBC4435BCC29598 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/main.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = main.m; path = main.m; sourceTree = SOURCE_ROOT; };
+		137FF3E425EC46FEBBF5885E /* /Users/sheldonthomas/Documents/Resplendent/neural_art/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		19D8A9C11FC24279A0EAC2CD /* /Users/sheldonthomas/Documents/Resplendent/neural_art/LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		717E2748D1BF4CB2805009AB /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Prefix.pch */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Prefix.pch; path = Prefix.pch; sourceTree = SOURCE_ROOT; };
+		7D45FE26A21C4091A18D4CB4 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/CMakeFiles/NEURAL_ART.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = _builds/CMakeFiles/NEURAL_ART.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		8F7AE70DC71745A09FE539A0 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Torch.h; path = Torch.h; sourceTree = SOURCE_ROOT; };
+		9070994D530B4556A9AF49EF /* /Users/sheldonthomas/Documents/Resplendent/neural_art/AppDelegate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AppDelegate.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		9992C3C27498441F978453FE /* /Users/sheldonthomas/Documents/Resplendent/neural_art/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AC4BF7C6FC3043EAAEF420F5 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/ViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ViewController.m; path = ViewController.m; sourceTree = SOURCE_ROOT; };
+		CC62CFD98BEB4FC4B077D942 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = Torch.m; path = Torch.m; sourceTree = SOURCE_ROOT; };
+		DB89638C10D24F03AD35C761 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/AppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = AppDelegate.m; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		E820C694D21545B9AFDFA176 /* NEURAL_ART */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = NEURAL_ART; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAC603624D4400EBE94A30E /* /Users/sheldonthomas/Documents/Resplendent/neural_art/ViewController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ViewController.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
+		EFCEBD60258142A3ABC885C0 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F4D4E9EB515F48C198532E63 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = Torch.framework; path = Torch.framework; sourceTree = SOURCE_ROOT; };
+		FA2B9FEB082042A1ABA44A3F /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		05714E50AC6D4F809B29EA06 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19D8A9C11FC24279A0EAC2CD /* /Users/sheldonthomas/Documents/Resplendent/neural_art/LaunchScreen.storyboard */,
+				FA2B9FEB082042A1ABA44A3F /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Main.storyboard */,
+				F4D4E9EB515F48C198532E63 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.framework */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1A9B295E0EDC43F98B26D74A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				85F173BA191442B9BD131178 /* ZERO_CHECK */,
+				A31AC828342745CFB3937120 /* ALL_BUILD */,
+				3D5CFE73CA0640F3AD7BEC48 /* NEURAL_ART */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		3D5CFE73CA0640F3AD7BEC48 /* NEURAL_ART */ = {
+			isa = PBXGroup;
+			children = (
+				4B90D37E172F40C3902BE58E /* Header Files */,
+				8F8FBBBFAC5F4AE3B6D98CBC /* Source Files */,
+				8825D92CE6994688848AEE15 /* Resources */,
+				EFCEBD60258142A3ABC885C0 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/CMakeLists.txt */,
+				19D8A9C11FC24279A0EAC2CD /* /Users/sheldonthomas/Documents/Resplendent/neural_art/LaunchScreen.storyboard */,
+				FA2B9FEB082042A1ABA44A3F /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Main.storyboard */,
+				717E2748D1BF4CB2805009AB /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Prefix.pch */,
+				F4D4E9EB515F48C198532E63 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.framework */,
+			);
+			name = NEURAL_ART;
+			sourceTree = "<group>";
+		};
+		4098934E2FCE4DB084D18954 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4B90D37E172F40C3902BE58E /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				9070994D530B4556A9AF49EF /* /Users/sheldonthomas/Documents/Resplendent/neural_art/AppDelegate.h */,
+				8F7AE70DC71745A09FE539A0 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.h */,
+				EBAC603624D4400EBE94A30E /* /Users/sheldonthomas/Documents/Resplendent/neural_art/ViewController.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		85F173BA191442B9BD131178 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				4098934E2FCE4DB084D18954 /* CMake Rules */,
+				9992C3C27498441F978453FE /* /Users/sheldonthomas/Documents/Resplendent/neural_art/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		8825D92CE6994688848AEE15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D45FE26A21C4091A18D4CB4 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/CMakeFiles/NEURAL_ART.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8AC91635B26D4C87B12CC115 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8BD917D17D1043F7BE3F00BF = {
+			isa = PBXGroup;
+			children = (
+				1A9B295E0EDC43F98B26D74A /* Sources */,
+				05714E50AC6D4F809B29EA06 /* Resources */,
+				A6DDD47A0677487E911F1ABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F8FBBBFAC5F4AE3B6D98CBC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB89638C10D24F03AD35C761 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/AppDelegate.m */,
+				CC62CFD98BEB4FC4B077D942 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.m */,
+				AC4BF7C6FC3043EAAEF420F5 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/ViewController.m */,
+				0FAF82617EBC4435BCC29598 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/main.m */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A31AC828342745CFB3937120 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8AC91635B26D4C87B12CC115 /* CMake Rules */,
+				137FF3E425EC46FEBBF5885E /* /Users/sheldonthomas/Documents/Resplendent/neural_art/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A6DDD47A0677487E911F1ABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E820C694D21545B9AFDFA176 /* NEURAL_ART */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4274FF0AB324FCDB2C28D6C /* NEURAL_ART */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3036F14EED9B4CCBBD8818D6 /* Build configuration list for PBXNativeTarget "NEURAL_ART" */;
+			buildPhases = (
+				6A840AD1A284462C82FD3C84 /* Resources */,
+				E452BC2F06544354956AB855 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F2BCF59ADF04FE3A185DACD /* PBXTargetDependency */,
+			);
+			name = NEURAL_ART;
+			productName = NEURAL_ART;
+			productReference = E820C694D21545B9AFDFA176 /* NEURAL_ART */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ACB00DF0B654D5A97781043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = A4FA7B4D15BA4A58A5BD26F8 /* Build configuration list for PBXProject "neural_art" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				2206B931D04541609E9B42B5 /* Debug */,
+				6AC53F728B59471EAD4A9CEA /* Release */,
+				A4C43D1989274E3FAAC6E721 /* MinSizeRel */,
+				D2780B2CECB94EB591BBFDDC /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 8BD917D17D1043F7BE3F00BF;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				BF56E1AE7E0943C58F91115F /* ALL_BUILD */,
+				E4274FF0AB324FCDB2C28D6C /* NEURAL_ART */,
+				D538788F1DFE4CC0AEDC5EBA /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7205DF56EDBA463F8F1F2B0B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BC955F3AB8F043E3958EAB80 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds -f /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C21BE634905346D19D12EA81 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds -f /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		EDDBBA378F4C4D82B2C423F1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A840AD1A284462C82FD3C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C90E88AC3F4310A363ADE3 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/LaunchScreen.storyboard */,
+				E2E696B3D0EA441E929804A6 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Main.storyboard */,
+				D6BCA47E675D49B09016B092 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.framework */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E452BC2F06544354956AB855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD32B142C6B4397A505B893 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/AppDelegate.m */,
+				02CF94A648C340AC99DF987B /* /Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.m */,
+				D03CC0031AD84558AAEB194C /* /Users/sheldonthomas/Documents/Resplendent/neural_art/ViewController.m */,
+				D5DE76E4D3A448EE9A7AEDA8 /* /Users/sheldonthomas/Documents/Resplendent/neural_art/main.m */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17F561D7B34F40678DDA8D25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4274FF0AB324FCDB2C28D6C /* NEURAL_ART */;
+			targetProxy = 86965560FF0742458FE54854 /* PBXContainerItemProxy */;
+		};
+		67D5FA736FB74B3487FF5406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D538788F1DFE4CC0AEDC5EBA /* ZERO_CHECK */;
+			targetProxy = 7BCC080349F44327B8C0EE7A /* PBXContainerItemProxy */;
+		};
+		8F2BCF59ADF04FE3A185DACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D538788F1DFE4CC0AEDC5EBA /* ZERO_CHECK */;
+			targetProxy = 1428DF9747854A5EAA4F4E99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C26FBC8BC064D3FA6D9021E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		1AAD0D74086846A1BB1E2E51 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		1D11DEE707B84A378BFBCF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk;
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/build;
+			};
+			name = Release;
+		};
+		20E034FC8A114028BC80A361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		2627602B15734FDB9B8E2A6F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		29C452831E4A43B6A57A35B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		34DA6E69EA694475855D30D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		4A37AE44F94F4F7F92947763 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/sheldonthomas/Documents/Resplendent/neural_art, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/sheldonthomas/Documents/Resplendent/neural_art/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.framework/Headers, );
+				INFOPLIST_FILE = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/CMakeFiles/NEURAL_ART.dir/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " -fobjc-arc -stdlib=libstdc++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-headerpad_max_install_names  -framework Torch -framework UIKit -framework Foundation -framework CoreGraphics -framework MobileCoreServices -framework CFNetwork -framework SystemConfiguration -framework Security -framework AVFoundation -framework AudioToolbox -licucore -lc++ -framework Accelerate";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NEURAL_ART;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds;
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		51988F11C2B6416BB06BB214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk;
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/build;
+			};
+			name = Debug;
+		};
+		7E2E2DB373E046708D3CF707 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk;
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/build;
+			};
+			name = MinSizeRel;
+		};
+		8506586DF2354CB09DB03546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/sheldonthomas/Documents/Resplendent/neural_art, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/sheldonthomas/Documents/Resplendent/neural_art/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.framework/Headers, );
+				INFOPLIST_FILE = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/CMakeFiles/NEURAL_ART.dir/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " -fobjc-arc -stdlib=libstdc++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk     ";
+				OTHER_LDFLAGS = " -Wl,-headerpad_max_install_names  -framework Torch -framework UIKit -framework Foundation -framework CoreGraphics -framework MobileCoreServices -framework CFNetwork -framework SystemConfiguration -framework Security -framework AVFoundation -framework AudioToolbox -licucore -lc++ -framework Accelerate";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NEURAL_ART;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds;
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		8974D2A4204E41D2B6683E39 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		8CB134401BA44923AEFD0FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/sheldonthomas/Documents/Resplendent/neural_art, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/sheldonthomas/Documents/Resplendent/neural_art/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.framework/Headers, );
+				INFOPLIST_FILE = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/CMakeFiles/NEURAL_ART.dir/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " -fobjc-arc -stdlib=libstdc++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-headerpad_max_install_names  -framework Torch -framework UIKit -framework Foundation -framework CoreGraphics -framework MobileCoreServices -framework CFNetwork -framework SystemConfiguration -framework Security -framework AVFoundation -framework AudioToolbox -licucore -lc++ -framework Accelerate";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NEURAL_ART;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds;
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		998E89F6DB6F41FCBE3F641E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/sheldonthomas/Documents/Resplendent/neural_art, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/sheldonthomas/Documents/Resplendent/neural_art/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/sheldonthomas/Documents/Resplendent/neural_art/Torch.framework/Headers, );
+				INFOPLIST_FILE = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/CMakeFiles/NEURAL_ART.dir/Info.plist;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " -fobjc-arc -stdlib=libstdc++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-headerpad_max_install_names  -framework Torch -framework UIKit -framework Foundation -framework CoreGraphics -framework MobileCoreServices -framework CFNetwork -framework SystemConfiguration -framework Security -framework AVFoundation -framework AudioToolbox -licucore -lc++ -framework Accelerate";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NEURAL_ART;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds;
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		A0D3C639E44D43D6848305C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		DDA6060C6C86470CA7E4F95A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk;
+				SYMROOT = /Users/sheldonthomas/Documents/Resplendent/neural_art/_builds/build;
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3036F14EED9B4CCBBD8818D6 /* Build configuration list for PBXNativeTarget "NEURAL_ART" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8506586DF2354CB09DB03546 /* Debug */,
+				8CB134401BA44923AEFD0FF2 /* Release */,
+				4A37AE44F94F4F7F92947763 /* MinSizeRel */,
+				998E89F6DB6F41FCBE3F641E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		83EE30592EBD4A9CAA4B85E6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E034FC8A114028BC80A361 /* Debug */,
+				34DA6E69EA694475855D30D0 /* Release */,
+				0C26FBC8BC064D3FA6D9021E /* MinSizeRel */,
+				8974D2A4204E41D2B6683E39 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A4FA7B4D15BA4A58A5BD26F8 /* Build configuration list for PBXProject "neural_art" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51988F11C2B6416BB06BB214 /* Debug */,
+				1D11DEE707B84A378BFBCF0E /* Release */,
+				7E2E2DB373E046708D3CF707 /* MinSizeRel */,
+				DDA6060C6C86470CA7E4F95A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BA0ADC3C553D4C50BD777666 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C452831E4A43B6A57A35B3 /* Debug */,
+				A0D3C639E44D43D6848305C8 /* Release */,
+				2627602B15734FDB9B8E2A6F /* MinSizeRel */,
+				1AAD0D74086846A1BB1E2E51 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ACB00DF0B654D5A97781043 /* Project object */;
+}
